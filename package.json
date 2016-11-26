@@ -4,6 +4,7 @@
   "description": "Built with Express.js",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/martybutts/P_T_Davidson-express#readme",
   "dependencies": {
-    "expres": "0.0.5"
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
