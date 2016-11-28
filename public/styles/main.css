@@ -24,6 +24,7 @@ li {
 }
 .leftNav {
   float: left;
+  margin: 0 auto;
   text-align: left;
   /*margin-left: 0;
   padding-left: 0;*/
