@@ -6,13 +6,13 @@ body {
 }
 body {
   color: #fff;
-  text-align: center;
+  /*text-align: center;*/
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 h1 {
   display: flex;
   justify-content: center;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-name: slidein;
 }
 
@@ -21,12 +21,41 @@ h1 {
     margin-left: 100%;
     width: 300%;
   }
-
   to {
     margin-left: 0%;
     width: 100%;
   }
+  50% {
+  font-size: 300%;
+  margin-left: 5%;
+  width: 150%;
+  }
 }
+
+h2 {
+  animation-duration: 3s;
+  animation-name: slideacross;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideacross {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+  to {
+    display: flex;
+    justify-content: center;
+    margin-left: 48%;
+    width: 0%;
+  }
+  50% {
+    margin-left:0%;
+    width:100%;
+  }
+}
+
 
 /*.centered {
   position: fixed;
